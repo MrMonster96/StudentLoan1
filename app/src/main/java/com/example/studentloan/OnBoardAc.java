@@ -12,14 +12,14 @@ public class OnBoardAc extends TutorialActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String s1 = getString(R.string.app_name);
+        String s1 = getString(R.string.s1);
         String s2 = getString(R.string.app_name);
 
         //ONE SLIDE
         addFragment(new Step.Builder().setTitle("How To Take Instant Loan")
                 .setContent(s1)
                 .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
-                .setDrawable(R.drawable.ic_launcher_foreground) // int top drawable
+                .setDrawable(R.drawable.onb1) // int top drawable
                 .setSummary("Earn Daily using Refer your Friend")
                 .build());
         // 2ND SLIDE
