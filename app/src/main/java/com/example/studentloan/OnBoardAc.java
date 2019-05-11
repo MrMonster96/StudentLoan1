@@ -23,7 +23,7 @@ public class OnBoardAc extends TutorialActivity {
                 .setSummary("Earn Daily using Refer your Friend")
                 .build());
         // 2ND SLIDE
-        addFragment(new Step.Builder().setTitle("Rules And  ")
+        addFragment(new Step.Builder().setTitle("Rules And Regulation ")
                 .setContent(s2)
                 .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
                 .setDrawable(R.drawable.ic_launcher_background) // int top drawable
