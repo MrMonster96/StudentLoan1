@@ -23,7 +23,7 @@ public class OnBoardAc extends TutorialActivity {
                 .setSummary("Cash Out, Come Here")
                 .build());
         // 2ND SLIDE
-        addFragment(new Step.Builder().setTitle("Rules And Regulation ")
+        addFragment(new Step.Builder().setTitle("Get money ")
                 .setContent(s2)
                 .setBackgroundColor(Color.parseColor("#00FFAB00")) // int background color
                 .setDrawable(R.drawable.img) // int top drawable
