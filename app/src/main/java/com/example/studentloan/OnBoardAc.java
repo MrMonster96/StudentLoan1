@@ -18,7 +18,7 @@ public class OnBoardAc extends TutorialActivity {
         //ONE SLIDE
         addFragment(new Step.Builder().setTitle("How To Take Instant Loan")
                 .setContent(s1)
-                .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
+                .setBackgroundColor(Color.parseColor("#598AC6"))// int background color
                 .setDrawable(R.drawable.onb1) // int top drawable
                 .setSummary("Earn Daily using Refer your Friend")
                 .build());
@@ -29,6 +29,8 @@ public class OnBoardAc extends TutorialActivity {
                 .setDrawable(R.drawable.ic_launcher_background) // int top drawable
                 .setSummary("Only for Entertainment and help for society ")
                 .build());
+
+
 
 
 
