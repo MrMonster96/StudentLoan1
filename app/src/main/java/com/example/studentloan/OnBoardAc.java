@@ -16,7 +16,7 @@ public class OnBoardAc extends TutorialActivity {
         String s2 = getString(R.string.app_name);
 
         //ONE SLIDE
-        addFragment(new Step.Builder().setTitle("How To Play")
+        addFragment(new Step.Builder().setTitle("How To Take Instant Loan")
                 .setContent(s1)
                 .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
                 .setDrawable(R.drawable.ic_launcher_foreground) // int top drawable
