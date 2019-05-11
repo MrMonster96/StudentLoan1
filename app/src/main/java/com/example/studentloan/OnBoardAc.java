@@ -30,11 +30,11 @@ public class OnBoardAc extends TutorialActivity {
                 .setSummary("Only for Entertainment and help for society ")
                 .build());
         // 3RD SLIDE
-        addFragment(new Step.Builder().setTitle("Rules And Regulation ")
+        addFragment(new Step.Builder().setTitle("Reward ")
                 .setContent(s2)
                 .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
-                .setDrawable(R.drawable.rs) // int top drawable
-                .setSummary("Only for Entertainment and help for society ")
+                .setDrawable(R.drawable.rreward) // int top drawable
+                .setSummary("Earn rewards by connecting with friends ")
                 .build());
 
 
