@@ -18,21 +18,21 @@ public class OnBoardAc extends TutorialActivity {
         //ONE SLIDE
         addFragment(new Step.Builder().setTitle("How To Take Instant Loan")
                 .setContent(s1)
-                .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
+                .setBackgroundColor(Color.parseColor("#00FFAB00")) // int background color
                 .setDrawable(R.drawable.time) // int top drawable
-                .setSummary("Earn Daily using Refer your Friend")
+                .setSummary("Cash Out, Come Here")
                 .build());
         // 2ND SLIDE
         addFragment(new Step.Builder().setTitle("Rules And Regulation ")
                 .setContent(s2)
-                .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
+                .setBackgroundColor(Color.parseColor("#00FFAB00")) // int background color
                 .setDrawable(R.drawable.img) // int top drawable
                 .setSummary("Only for Entertainment and help for society ")
                 .build());
         // 3RD SLIDE
         addFragment(new Step.Builder().setTitle("Reward ")
                 .setContent(s2)
-                .setBackgroundColor(Color.parseColor("#598AC6")) // int background color
+                .setBackgroundColor(Color.parseColor("#00FFAB00")) // int background color
                 .setDrawable(R.drawable.rreward) // int top drawable
                 .setSummary("Earn rewards by connecting with friends ")
                 .build());
